@@ -1,7 +1,7 @@
 # 教材接口
 
-## 1.获取建筑接口   
--  url:school_manager/facility/getBuildingList
+## 1.添加或编辑教材   
+-  接口地址 :school_manager.textbook.save
 
 -  请求数据
 
