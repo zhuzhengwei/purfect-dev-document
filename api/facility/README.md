@@ -1,4 +1,4 @@
-# 教材接口
+# 设备接口
 
 ## 1.获取建筑接口   
 -  url:school_manager/facility/getBuildingList

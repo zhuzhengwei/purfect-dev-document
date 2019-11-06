@@ -5,7 +5,7 @@ module.exports = {
     },
     themeConfig: {
         // 顶部导航栏
-        nav: [
+        /*nav: [
             {text: '首页', link: '/'},
             {
                 text: '接口设计',link: '/api/'
@@ -16,7 +16,7 @@ module.exports = {
             {
                 text: '数据库设计',link: '/database/'
             }
-        ],
+        ],*/
         // 侧边栏
         // sidebar: 'auto'
         sidebar:
@@ -27,8 +27,8 @@ module.exports = {
                         children: [
 
                             '/api/official/',
+                            '/api/facility/',
                             '/api/textbook/',
-
                         ]
                     },
                     {
