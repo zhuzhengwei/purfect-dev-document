@@ -18,6 +18,14 @@ module.exports = {
             }
         ],
         // 侧边栏
-        sidebar: 'auto'
+        // sidebar: 'auto'
+        sidebar:
+             [
+                 '/api/',
+                 '/database/',
+                 '/business_logic/',
+                ]
+
+
     }
 }
