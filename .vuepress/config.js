@@ -25,10 +25,10 @@ module.exports = {
                         title:'接口设计',
                         sidebarDepth: 1,
                         children: [
-
                             '/api/official/',
                             '/api/facility/',
                             '/api/textbook/',
+                            '/api/recruit/',
                         ]
                     },
                     {
@@ -44,6 +44,6 @@ module.exports = {
                         ],
                     }
                 ],
-
+            
     }
 }
