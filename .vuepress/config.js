@@ -20,12 +20,30 @@ module.exports = {
         // 侧边栏
         // sidebar: 'auto'
         sidebar:
-             [
-                 '/api/',
-                 '/database/',
-                 '/business_logic/',
-                ]
+                [
+                    {
+                        title:'接口设计',
+                        sidebarDepth: 1,
+                        children: [
 
+                            '/api/official/',
+                            '/api/textbook/',
+
+                        ]
+                    },
+                    {
+                        title: '业务逻辑',
+                        children:[
+                            '/business_logic/',
+                        ],
+                    },
+                    {
+                        title: '数据库设计',
+                        children:[
+                            '/database/'
+                        ],
+                    }
+                ],
 
     }
 }
