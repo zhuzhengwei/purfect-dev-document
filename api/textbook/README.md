@@ -57,7 +57,7 @@ school_id 默认是从session中获取
     "code": 1000,
     "message": "OK",
     "data": [
-         "major_textbook" => [
+         "major_textbook":[
                 {
                     "id": 3,                      // 课程ID
                     "code": "1234",               // 课程编号
@@ -112,6 +112,49 @@ school_id 默认是从session中获取
 
 
 ```
+
+## 3.教材列表
+
+- 接口地址:school_manager.textbook.list
+
+- 没有请求参数
+school_id 默认是从session中获取
+
+- 响应数据
+
+``` json
+{
+	"code": 1000,
+	"message": "OK",
+	"data": {
+		"textbook": [{  
+			"id": 1,                             
+			"name": "数学",                          // 教材名称
+			"press": "新华出版社",                    // 出版社
+			"author": "",                           // 作者
+			"edition": "1",                         // 版本
+			"course_id": 4,                         // 课程ID
+			"school_id": 50,                        // 学校ID
+			"type": "专业教材",                      // 教材类型
+			"purchase_price": 80.01,                // 采购价
+			"price": 100,                           // 学生购买价
+			"introduce": "",                        // 教材介绍
+			"created_at": "2019-11-06 12:00:49",    // 创建时间
+			"course": {                             // 课程
+				"id": 4,         
+				"code": "111",                      // 课程编号
+				"name": "数学",                      // 课程名称
+				"scores": 10,                       // 学分
+				"year": 2,                          // 年级
+				"term": 1,                          // 学期
+				"optional": false                   // 选修  必修
+			}
+		}]
+	}
+}
+```
+
+
 
 
 
