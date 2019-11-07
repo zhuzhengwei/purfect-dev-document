@@ -34,7 +34,8 @@ module.exports = {
                     {
                         title: '业务逻辑',
                         children:[
-                            '/business_logic/',
+                            '/business_logic/textbook/',
+                            '/business_logic/excel/',
                         ],
                     },
                     {
