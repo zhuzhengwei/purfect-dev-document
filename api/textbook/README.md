@@ -350,7 +350,7 @@ school_id 默认是从session中获取
 
 - 下载校区教材列表
 
-- 接口地址:school_manager.textbook.gradeTextbookDownload
+- 接口地址:school_manager.textbook.campusTextbookDownload
 
 - 请求数据
 
