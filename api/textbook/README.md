@@ -38,7 +38,7 @@ school_id 默认是从session中获取
 
 ## 2.教材列表
 
-- 接口地址:school_manager.textbook.list
+- 接口地址:teacher.textbook.list
 
 - 没有请求参数
 school_id 默认是从session中获取
