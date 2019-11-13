@@ -298,3 +298,68 @@
     "data": []
 }
 ```
+
+## 获取所有未分配的学生(后台管理)
+#### 接口地址 : api.get.unassigned.grades
+
+#### 1: 请求参数
+
+无 (但是必须登录并且session中有学校的ID)
+
+#### 响应数据: json 格式
+
+```json
+{
+    "code": 1000,
+    "message": "OK",
+    "data": [
+        {
+            "major_id": 3,
+            "user_id": 168005,
+            "name": "Woodrow Crist"
+        },
+        {
+            "major_id": 2,
+            "user_id": 168007,
+            "name": "Barbara Stanton"
+        },
+        {
+            "major_id": 3,
+            "user_id": 168027,
+            "name": "Emmitt Nolan"
+        }
+    ]
+}
+```
+
+## 给学生分配班级(后台管理)
+#### 接口地址 : api.distribution.grades
+
+#### 1: 请求参数
+
+| 参数名        | 是否必须        | 参数类型 | 说明
+| ------------- | :-------------: | -----:   | -----:
+| user_id       | Yes             | int      | 用户ID
+| name          | Yes             | string   | 用户名称
+| grade_id      | Yes             | int      | 班级ID (多选也是,但是班级ID 是一样的)
+
+考虑到会有多选的情况所以要生成二维数组
+
+#### 请求参数示例:
+```array
+[
+    ['user_id' => 1, 'name' => 'wenhao', 'grade_id' => '1'],
+    ['user_id' => 2, 'name' => 'wenhao', 'grade_id' => '1'],
+]
+```
+
+#### 响应数据: json 格式
+
+```json
+{
+    "code": 1000,
+    "message": "分配班级成功",
+    "data": []
+}
+
+```
