@@ -1,4 +1,4 @@
-# 电话簿
+# 电话簿接口
 
 ## 1.班级电话簿   
 -  url: api/campus/handleAffairs/getAddressBook/class
