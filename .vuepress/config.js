@@ -29,6 +29,7 @@ module.exports = {
                             '/api/facility/',
                             '/api/textbook/',
                             '/api/recruit/',
+                            '/api/enrolment/',
                         ]
                     },
                     {
@@ -36,12 +37,13 @@ module.exports = {
                         children:[
                             '/business_logic/textbook/',
                             '/business_logic/excel/',
+                            '/business_logic/enrolment/',
                         ],
                     },
                     {
                         title: '数据库设计',
                         children:[
-                            '/database/'
+                            '/database/enrolment/'
                         ],
                     }
                 ],
