@@ -22,7 +22,7 @@ module.exports = {
         sidebar:
                 [
                     {
-                        title:'接口设计',
+                        title:'PC端接口设计',
                         sidebarDepth: 1,
                         children: [
                             '/api/official/',
@@ -33,11 +33,24 @@ module.exports = {
                         ]
                     },
                     {
-                        title: '业务逻辑',
+                        title:'移动端接口设计',
+                        sidebarDepth: 1,
+                        children: [
+                            '/api/AddressBook/',
+                            '/api/elective/',
+                        ]
+                    },
+                    {
+                        title: 'PC端业务逻辑',
                         children:[
                             '/business_logic/textbook/',
                             '/business_logic/excel/',
                             '/business_logic/enrolment/',
+                        ],
+                    },
+                    {
+                        title: '移动端业务逻辑',
+                        children:[
                         ],
                     },
                     {
