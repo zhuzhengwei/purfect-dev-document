@@ -23,7 +23,7 @@
 | campus_id| int| 11    |  YES   |  校区ID |
 | describe| text|     |  NO   |  描述 |
 | sort  | smallint| 5 |  YES   |  序号 |
-| principal  | int|11 |  YES   |  负责人 user_id  |
+| user_id  | int|11 |  YES   |  负责人 user_id  |
 
 
 ## 学校迎新步骤协助人关联表
