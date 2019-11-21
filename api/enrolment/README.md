@@ -89,7 +89,7 @@
 ```
 
 
-## 5.学校迎新步骤详情
+## 4.学校迎新步骤详情
 
 - 接口地址:api.schoolEnrolmentStep.getEnrolmentInfo
 
@@ -97,7 +97,10 @@
 
 | 参数名    | 是否必须 | 参数类型  | 说明    |
 | -------- |:-------:| -----:  | -----: |
-| id     | Yes     | int  | 步骤ID  |
+| id       | No       | int  | 迎新步骤当前ID，没有则默认第一步,step_type=0时,id不能为空 |
+| step_type| Yes   | enum[0,1,2] | 0:查看详情，id不能为空,1:查看上一步,2:查看下一步 默认为0 |
+| school_id| Yes   | int | 学校ID|
+| campus_id| Yes   | int | 校区ID|
 
 
 - 响应数据
@@ -116,16 +119,15 @@
         "sort": 2,
         "user_id": 10,
         "created_at": "2019-11-20 15:44:51",
+        "campus": {
+            "name": "Anderson Ltd 校区"
+        },
         "user": {
-            "id": 10,
-            "uuid": "365ad7c6-19f1-4d77-8d19-2a721891a439",
             "name": "Warren Jerde",
             "mobile": "1000006"
         },
         "tasks": [
             {
-                "id": 19,
-                "school_enrolment_step_id": 1,
                 "name": "莽湘空举匹",
                 "describe": "婪瘸寇驳筐歼脑呵骄凹埔踞勺颅烧色放尉饺狗尝",
                 "type": 1
@@ -133,28 +135,13 @@
         ],
         "assists": [
             {
-                "id": 61,
-                "school_enrolment_step_id": 1,
-                "user_id": 11,
-                "user": {
-                    "id": 11,
-                    "uuid": "7e48ea92-ce5f-46fa-baac-ed1f50e4d8ea",
-                    "name": "Stevie Grant",
-                    "mobile": "1000007"
-                }
-            },
+                "name": "Stevie Grant",
+                "mobile": "1000007"
+            }
         ],
         "medias": [
             {
-                "id": 20,
-                "school_enrolment_step_id": 1,
-                "media_id": 1,
-                "media": {
-                    "id": 1,
-                    "file_name": "DSC_0363.JPG",
-                    "keywords": "DSC_0363.JPG",
-                    "url": "\/storage\/users\/1\/IVqXqxNs4c1yJv3sKF4oAdw14NMyNl1JP7bYqklz.jpeg"
-                }
+                "url": "\/storage\/users\/1\/IVqXqxNs4c1yJv3sKF4oAdw14NMyNl1JP7bYqklz.jpeg"
             }
         ]
     }
@@ -162,17 +149,41 @@
 
 ```
 
+## 5.更新步骤排序
 
-## 4.删除学校迎新步骤 接口
+- 接口地址:api.school-enrolment-step.update-sort
+
+- 请求参数
+
+| 参数名    | 是否必须 | 参数类型  | 说明    |
+| -------- |:-------:| -----:  | -----: |
+| enrolment[key]['id']| Yes     | int  | 迎新步骤ID  |
+| enrolment[key]['sort']| Yes     | int  | 排序  |
+
+- 响应格式
+
+```json
+{
+    "code": 1000,
+    "message": "更新成功",
+    "data": []
+}
+```
+
+
+
+
+## 6.删除学校迎新步骤 接口
 
 - 接口地址:api.schoolEnrolmentStep.deleteEnrolment
 
 - 请求参数
 
-
 | 参数名    | 是否必须 | 参数类型  | 说明    |
 | -------- |:-------:| -----:  | -----: |
-| id      | Yes     | int  | 迎新步骤ID  |
+| id       | Yes     | int  | 迎新步骤ID,批量删除以逗号拼接字符串 |
+
+
 
 - 响应数据
 
@@ -184,9 +195,4 @@
 }
 
 ```
-
-
-- 请求参数
- - 接口 /修改/删除
- - 根据当前步骤获取下一步流程信息 没有当前步骤默认返回第一步
 
