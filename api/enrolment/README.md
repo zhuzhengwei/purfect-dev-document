@@ -88,8 +88,44 @@
 
 ```
 
+## 4.学校迎新列表
 
-## 4.学校迎新步骤详情
+- 接口地址:api.school-enrolment-step.step-list
+
+- 请求参数
+
+| 参数名    | 是否必须 | 参数类型  | 说明    |
+| -------- |:-------:| -----:  | -----: |
+| school_id| Yes   | int | 学校ID|
+| campus_id| Yes   | int | 校区ID|
+
+- 响应数据
+
+```json
+{
+    "code": 1000,
+    "message": "OK",
+    "data": {
+        "enrolment": [
+            {
+                "id": 1,
+                "name": "疵涂塘牌片",
+                "enrolment_step_id": 1,
+                "school_id": 1,
+                "campus_id": 1,
+                "describe": "肠每钾细驾时弥灵抚松逞梅胸汀残千险纹放龟校蹿拇鹅困箩劫骋纺攘镐凤婚顺采儡阶忿羚毖讽裸软告溪券跑醋集顿托稻钱鬼牌孙歼抬古拿洁谜毯湍导驼唾梨潞鲜离罚首轻行璃埃茎歧喜凯晶扫匿钩茅司刨萎颓师核稍孪扩讲蹄蔼秒跑",
+                "sort": 1,
+                "user_id": 10,
+                "created_at": "2019-11-22 13:43:35"
+            }
+        ]
+    }
+}
+```
+
+
+
+## 5.学校迎新步骤详情
 
 - 接口地址:api.schoolEnrolmentStep.getEnrolmentInfo
 
@@ -149,7 +185,7 @@
 
 ```
 
-## 5.更新步骤排序
+## 6.更新步骤排序
 
 - 接口地址:api.school-enrolment-step.update-sort
 
@@ -173,7 +209,7 @@
 
 
 
-## 6.删除学校迎新步骤 接口
+## 7.删除学校迎新步骤 接口
 
 - 接口地址:api.schoolEnrolmentStep.deleteEnrolment
 
