@@ -30,6 +30,7 @@ module.exports = {
                             '/api/textbook/',
                             '/api/recruit/',
                             '/api/enrolment/',
+
                         ]
                     },
                     {
@@ -38,6 +39,7 @@ module.exports = {
                         children: [
                             '/api/AddressBook/',
                             '/api/elective/',
+                            '/api/apply/'
                         ]
                     },
                     {
@@ -46,6 +48,7 @@ module.exports = {
                             '/business_logic/textbook/',
                             '/business_logic/excel/',
                             '/business_logic/enrolment/',
+                            '/business_logic/apply/',
                         ],
                     },
                     {
@@ -56,7 +59,8 @@ module.exports = {
                     {
                         title: '数据库设计',
                         children:[
-                            '/database/enrolment/'
+                            '/database/enrolment/',
+                            '/database/apply/',
                         ],
                     }
                 ],
