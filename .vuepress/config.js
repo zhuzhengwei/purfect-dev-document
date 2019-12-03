@@ -39,7 +39,8 @@ module.exports = {
                         children: [
                             '/api/AddressBook/',
                             '/api/elective/',
-                            '/api/apply/'
+                            '/api/apply/',
+                            '/api/banner/'
                         ]
                     },
                     {
