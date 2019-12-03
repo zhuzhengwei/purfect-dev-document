@@ -40,7 +40,11 @@ module.exports = {
                             '/api/AddressBook/',
                             '/api/elective/',
                             '/api/apply/',
+<<<<<<< HEAD
                             '/api/banner/'
+=======
+                            '/api/notice/',
+>>>>>>> b88cf77cb3fdfe277b8dcc34ef242161f3eac5c7
                         ]
                     },
                     {
