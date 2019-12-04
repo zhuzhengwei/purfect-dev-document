@@ -2,7 +2,7 @@
 
 ## 1.通知列表
 
-- url:api.notice.list
+- url:api/notice/notice-list
 
 -  请求数据
 
@@ -52,7 +52,7 @@
 
 ## 2.详情接口
 
-- url:api.notice.info
+- url:api/notice/notice-info
 
 -   请求参数
 
