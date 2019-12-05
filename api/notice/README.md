@@ -22,7 +22,7 @@
         "currentPage": 1,
         "lastPage": 1,
         "total": 1,
-        "data": [
+        "list": [
             {
                 "id": 7,
                 "title": "xxxx",

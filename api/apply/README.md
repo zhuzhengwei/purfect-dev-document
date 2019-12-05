@@ -1,8 +1,8 @@
 # 申请管理
 
-## 申请类型列表
+## 1.申请类型列表
 
-- 接口地址:api.students.applications-type
+- 接口地址:api/students/applications-type
 
 
 - 响应数据
@@ -15,9 +15,6 @@
             {
                 "id": 1,
                 "name": "请假",
-                "school_id": 1,
-                "media_id": 1,
-                "status": 1,
                 "media": {
                     "url": "\/storage\/users\/1\/IVqXqxNs4c1yJv3sKF4oAdw14NMyNl1JP7bYqklz.jpeg"
                 }
@@ -30,7 +27,7 @@
 
 ## 2.添加申请
 
-- 接口地址:api.students.applications-create
+- 接口地址:api/students/applications-create
 
 - 请求数据
 
@@ -68,3 +65,51 @@
     }
 }
 ```
+
+
+## 3.用户申请列表
+
+- 接口地址:api/students/applications-list
+
+- 响应数据
+
+```json
+
+{
+    "code": 1000,
+    "message": "OK",
+    "data": {
+        "currentPage": 1,
+        "lastPage": 1,
+        "total": 3,
+        "data": [
+            {
+                "id": 3,
+                "created_at": "2019-11-26 11:29:27",
+                "status": 0,
+                "application_type": "请假"
+            },
+            {
+                "id": 2,
+                "created_at": "2019-11-26 10:32:43",
+                "status": 0,
+                "application_type": "请假"
+            },
+            {
+                "id": 1,
+                "created_at": "2019-11-26 10:31:28",
+                "status": 1,
+                "application_type": "请假"
+            }
+        ]
+    }
+}
+
+```
+
+
+
+
+
+
+
