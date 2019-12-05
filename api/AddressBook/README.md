@@ -40,7 +40,7 @@
 
 
 ## 1.学校部门电话簿   
--  url: api/campus/handleAffairs/getAddressBook/class
+-  url: api/campus/handleAffairs/getAddressBook/official
 
 -  请求数据
 
