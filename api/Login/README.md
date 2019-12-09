@@ -9,6 +9,7 @@
 | --------      | :----------: | -----:   | -----:   |
 | mobile        | Yes          | int      | 手机号    |
 | password      | Yes          | string      | 密码     |
+| app_tupe      | Yes          | int        | APP版本 6:学生端 9:教师端    |
 | platform      | NO           | string      | 手机平台 |
 | model         | NO           | string      | 手机型号 |
 | type          | NO           | string      | 设备类型 |
