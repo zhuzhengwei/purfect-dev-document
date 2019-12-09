@@ -8,13 +8,13 @@
 | 参数名        | 是否必须     | 参数类型 | 说明        |
 | --------      | :----------: | -----:   | -----:   |
 | mobile        | Yes          | int      | 手机号    |
-| password      | Yes          | int      | 密码     |
-| platform      | NO           | int      | 手机平台 |
-| model         | NO           | int      | 手机型号 |
-| type          | NO           | int      | 设备类型 |
-| device_number | NO           | int      | 设备号   |
-| push_id       | NO           | int      | 推送ID   |
-| version       | NO           | int      | APP版本  |
+| password      | Yes          | string      | 密码     |
+| platform      | NO           | string      | 手机平台 |
+| model         | NO           | string      | 手机型号 |
+| type          | NO           | string      | 设备类型 |
+| device_number | NO           | string      | 设备号   |
+| push_id       | NO           | string      | 推送ID   |
+| version       | NO           | string      | APP版本  |
 
 
 - 响应数据

@@ -43,6 +43,7 @@ module.exports = {
                             '/api/banner/',
                             '/api/notice/',
                             '/api/QrCode/',
+                            '/api/Login/',
                         ]
                     },
                     {
