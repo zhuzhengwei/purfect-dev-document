@@ -14,7 +14,7 @@
 
 #### 响应数据
 
-    ```{
+``` {
 	"code": 1000,
 	"message": "OK",
 	"data": [{
@@ -39,7 +39,9 @@
 		"tice_header": "消息"
 	}]
 	}
-	```
+```
+	
+	
 
 
 ####   SystemNotification功能使用说明
