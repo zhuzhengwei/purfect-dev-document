@@ -90,6 +90,30 @@
 }
 ```
 
+## 1.选修课报名
+-  url: api/course/elective/enroll
 
+-  请求数据
 
+| 参数名    | 是否必须     | 参数类型 | 说明   |
+| --------  | :----------: | -----:   | -----: |
+| api_token | Yes          | string   |        |
+| id | Yes          | Int      |   课程id     |
 
+-响应数据
+
+```
+{
+	"code": 1000,
+	"message": "OK",
+	"data": {
+		"course_id": "35",
+		"teacher_id": 902,
+		"user_id": 6,
+		"school_id": 1,
+		"updated_at": "2019-12-10 14:53:04",
+		"created_at": "2019-12-10 14:53:04",
+		"id": 1
+	}
+}
+```
