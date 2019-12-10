@@ -34,20 +34,11 @@ page | 否 | int | 页码 默认第一页
 		"priority": 0,
 		"tice_header": "消息"
 	}]
-}
-```
+	}
+	```
 
 
-
-
-
-
-
-
-
-
-
-### SystemNotification功能使用说明
+####   SystemNotification功能使用说明
 
 
 
@@ -70,6 +61,7 @@ page | 否 | int | 页码 默认第一页
 
 
 #### 表结构
+
 
 ```mysql
 CREATE TABLE `system_notifications` (
