@@ -118,7 +118,7 @@
 }
 ```
 
-## .选修课报名结果
+## 4.选修课报名结果
 -  url: api/course/elective/getresult/35
 
 -  请求数据
