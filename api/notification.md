@@ -2,11 +2,15 @@
 
 1. 消息列表
 
-- url   /api/notification/list?api_token=f095f24f-00ce-4027-b8ee-bbb86c6cea9f
+- url 
+	/api/notification/list?api_token=f095f24f-00ce-4027-b8ee-bbb86c6cea9f
+
+
 - 请求数据
 
-参数名 | 是否必须 | 参数类型 | 说明
-page | 否 | int | 页码 默认第一页
+| 参数名 | 是否必须 | 参数类型 | 说明 |
+| page | 否 | int | 页码 默认第一页 |
+
 
 - 响应数据
 
