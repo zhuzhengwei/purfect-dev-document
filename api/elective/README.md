@@ -51,7 +51,7 @@
 }
 ```
 
-## 1.选修课详情
+## 2.选修课详情
 -  url: api/course/elective/details
 
 -  请求数据
@@ -90,7 +90,7 @@
 }
 ```
 
-## 1.选修课报名
+## 3.选修课报名
 -  url: api/course/elective/enroll
 
 -  请求数据
