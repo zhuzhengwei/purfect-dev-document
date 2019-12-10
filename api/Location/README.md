@@ -74,7 +74,7 @@
     "code": 1000,
     "message": "OK",
     "data": {
-        "cities": [
+        "districts": [
             {
                 "id": 140802,
                 "name": "盐湖区"
