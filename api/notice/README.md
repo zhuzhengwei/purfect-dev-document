@@ -37,7 +37,7 @@
                         "url": "http://abc.com/storage/users/1/DJqD.jpeg"
                     }
                 ],
-                "image_media": "http://abc.com/storage/users/1/I1qklz.jpeg",
+                "image": "http://abc.com/storage/users/1/I1qklz.jpeg",
                 "inspect": {           // 当type为3时才有此值
                     "name": "卫生"
                 }
@@ -87,7 +87,7 @@
                     "url": "http://abc.com/storage/users/1/DJqmzh62smm8DOAi.jpeg"
                 }
             ],
-            "image_media": "http://abc.com/storage/users/1/I1qklz.jpeg",
+            "image": "http://abc.com/storage/users/1/I1qklz.jpeg",
             "inspect": {     // 当type为3时才有此值
                 "name": "卫生"
             }
