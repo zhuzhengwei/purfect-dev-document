@@ -9,7 +9,7 @@
 | 参数名       | 是否必须     | 参数类型  | 说明 |
 | -------- |:----------:| -----:   | ----- |
 | type  | Yes      | int      | 类型 1:通知, 2:公告, 3:检查|
-| page  | Yes      | int      | 页码 默认第一页|
+| page  | Yes      | int      | 页码 默认第一页, 起始页码为 0|
 
 
 - 响应数据
@@ -29,17 +29,15 @@
                 "type": 3,
                 "created_at": "2019-12-03 15:22:29",
                 "inspect_id": 1,
-                "notice_medias": [
+                "attachments": [
                     {
-                        "url": "/storage/users/1/IVqXqxyJv.jpeg"
+                        "url": "http://abc.com/storage/users/1/IVqXqxyJv.jpeg"
                     },
                     {
-                        "url": "/storage/users/1/DJqD.jpeg"
+                        "url": "http://abc.com/storage/users/1/DJqD.jpeg"
                     }
                 ],
-                "image_media": {   // 当type为2时,才有该值
-                    "url": "/storage/users/1/I1qklz.jpeg"
-                },
+                "image_media": "http://abc.com/storage/users/1/I1qklz.jpeg",
                 "inspect": {           // 当type为3时才有此值
                     "name": "卫生"
                 }
@@ -81,17 +79,15 @@
             "user_id": 1,
             "status": 1,
             "created_at": "2019-12-03 15:22:29",
-            "notice_medias": [
+            "attachments": [
                 {
-                    "url": "/storage/users/1/IVqXNl1JP7bYqklz.jpeg"
+                    "url": "http://abc.com/storage/users/1/IVqXNl1JP7bYqklz.jpeg"
                 },
                 {
-                    "url": "/storage/users/1/DJqmzh62smm8DOAi.jpeg"
+                    "url": "http://abc.com/storage/users/1/DJqmzh62smm8DOAi.jpeg"
                 }
             ],
-             "image_media": {   // 当type为2时,才有该值
-                "url": "/storage/users/1/I1qklz.jpeg"
-             },
+            "image_media": "http://abc.com/storage/users/1/I1qklz.jpeg",
             "inspect": {     // 当type为3时才有此值
                 "name": "卫生"
             }
