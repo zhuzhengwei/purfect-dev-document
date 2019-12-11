@@ -47,6 +47,7 @@ module.exports = {
                             '/api/Location/',
                             '/api/Home/',
                             '/api/sms/',
+                            '/api/Conference/',
                         ]
                     },
                     {
