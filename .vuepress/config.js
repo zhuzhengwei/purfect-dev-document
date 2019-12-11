@@ -44,7 +44,10 @@ module.exports = {
                             '/api/notice/',
                             '/api/QrCode/',
                             '/api/Login/',
-                            '/api/Location/'
+                            '/api/Location/',
+                            '/api/Home/',
+                            '/api/sms/',
+                            '/api/Conference/',
                         ]
                     },
                     {
