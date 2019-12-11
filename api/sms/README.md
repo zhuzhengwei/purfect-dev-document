@@ -2,7 +2,7 @@
 
 ## 发送短信   
 
-#### 接口地址 : api/campus/handleAffairs/getAddressBook/class
+#### 接口地址 : api/index/sms
 
 
 
@@ -17,6 +17,7 @@
 - 0 注册
 - 1 登录
 - 2 忘记密码
+
 
 #### 响应数据: json 格式
 
