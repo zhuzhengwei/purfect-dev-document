@@ -159,7 +159,7 @@
 | mobile        | Yes          | int      | 手机号 |
 | password     | Yes          | string   | 密码 |
 | code         | Yes          | int      | 验证码 |
-| type         | Yes          | int      |  忘记密码 传 3  |
+| type         | Yes          | int      |  修改手机号 传 3  |
 
 
 
