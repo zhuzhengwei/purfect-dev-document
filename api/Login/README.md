@@ -79,6 +79,7 @@
 | mobile        | Yes          | int      | 手机号 |
 | password     | Yes          | string   | 新密码 |
 | code 		   | Yes          | int   	 | 验证码 |
+| type         | Yes          | int      |  忘记密码 传 2  |
 
 
 
@@ -90,5 +91,87 @@
 	"data": []
 }
 ```
+
+## 1.用户信息   
+-  url: api/user/getUserInfo
+
+-  请求数据
+
+| 参数名       | 是否必须     | 参数类型 | 说明      |
+| --------     | :----------: | -----:   | -----: |
+| token        | Yes          | int      | 手机号 |
+
+
+
+- 响应数据
+``` json
+{
+    "code": 1000,
+    "message": "OK",
+    "data": {
+        "name": "Sandra Gerlach",
+        "gender": 1,
+        "birthday": "",
+        "state": "石家庄",
+        "city": "石家庄",
+        "area": "石家庄",
+        "school_name": "Gerhard Bins 大学",
+        "institute": "cupiditate 学院",
+        "department": "quos系",
+        "major": "Gerhard Mills 专业",
+        "year": 2018,
+        "grade_name": "Mr. Leonel Jenkins DVM 专业"
+    }
+}
+```
+
+## 1.修改用户信息   
+-  url: api/user/updateUserInfo
+
+-  请求数据
+
+| 参数名       | 是否必须     | 参数类型 | 说明   |
+| --------     | :----------: | -----:   | -----: |
+| token        | Yes          | int      |        |
+| data[state]  | No           | string   | 省     |
+| data[city]   | No           | string   | 市     |
+| data[area]   | No           | string   | 区     |
+| data[gender] | No           | string   | 性别   1:男 2:女|
+
+
+
+- 响应数据
+``` json
+{
+    "code": 1000,
+    "message": "修改成功",
+    "data": []
+}
+```
+
+## 1.修改手机号   
+-  url: api/user/updateUserMobileInfo
+
+-  请求数据
+
+| 参数名       | 是否必须     | 参数类型 | 说明      |
+| --------     | :----------: | -----:   | -----: |
+| mobile        | Yes          | int      | 手机号 |
+| password     | Yes          | string   | 密码 |
+| code         | Yes          | int      | 验证码 |
+| type         | Yes          | int      |  忘记密码 传 3  |
+
+
+
+- 响应数据
+``` json
+{
+    "code": 1000,
+    "message": "手机号修改成功,请重新登录",
+    "data": []
+}
+```
+
+
 
 
