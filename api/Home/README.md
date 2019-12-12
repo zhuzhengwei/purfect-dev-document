@@ -37,7 +37,8 @@
             }
         ],
         "school_name": "Gerhard Bins 大学",
-        "school_logo": ""
+        "school_logo": "",
+        "is_show_account": false
     }
 }
 
