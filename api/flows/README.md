@@ -57,9 +57,9 @@
             },
         ],
         "url": { // 学生使用 H5 版本的工作流所要用的 url 的集合
-            "base": "http://abc.com/", // 网址 url
-            "start_flow": "flow/student/start", // 启动流程的 URI
-            "view_flows_in_progress": "flow/student/in-progress", // 查看自己流程的 URI
+            "base": "http://abc.com", // 网址 url
+            "start_flow": "/h5/flow/user/start", // 启动流程的 URI
+            "view_flows_in_progress": "/h5/flow/user/in-progress", // 查看自己流程的 URI
             "extra": "" // 保留字段, 对于任意非启动流程和查看流程之外的功能的 uri
         }
     }
