@@ -27,11 +27,11 @@
                     {
                         "id": 10,
                         "name": "病假",
-                        "icon": "http://abc.com/assets/img/icon1.png"
+                        "icon": "http://abc.com/assets/img/icon1" // 需要前端 APP 自行判断所需的图片大小
                     },{
                         "id": 11,
                         "name": "事假",
-                        "icon": "http://abc.com/assets/img/icon1.png"
+                        "icon": "http://abc.com/assets/img/icon1"
                     }
                 ]
             },
@@ -42,11 +42,11 @@
                     {
                         "id": 20,
                         "name": "出差",
-                        "icon": "http://abc.com/assets/img/icon1.png"
+                        "icon": "http://abc.com/assets/img/icon1"
                     },{
                         "id": 21,
                         "name": "用章",
-                        "icon": "http://abc.com/assets/img/icon1.png"
+                        "icon": "http://abc.com/assets/img/icon1"
                     }
                 ]
             },
