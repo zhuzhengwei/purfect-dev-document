@@ -164,3 +164,50 @@ from_user_avatar: "/assets/img/dp.jpg"
 ]
 }
 ```
+
+
+2. 添加某文章的评论
+
+- url   /api/forum/comments/addcomment/1?api_token=99382f5f-977b-4e16-a82c-94783d29d749&content=评论内容
+- 请求数据
+
+|参数名 | 是否必须 | 参数类型 | 说明|
+| --------      | :----------: | -----:   | -----:                             |
+|api_token | 是 | str | token |
+|forumid | 是 | int | 本例中此值为1 |
+|content | 是 | str | 评论的内容 |
+
+
+- 响应数据
+
+```
+{
+code: 1000,
+message: "添加成功",
+data: [ ]
+}
+```
+
+
+3. 添加某评论的回复
+
+- url   /api/forum/comments/addreply/1?api_token=99382f5f-977b-4e16-a82c-94783d29d749&reply=回复内容
+- 请求数据
+
+|参数名 | 是否必须 | 参数类型 | 说明|
+| --------      | :----------: | -----:   | -----:                             |
+|api_token | 是 | str | token |
+|commentid | 是 | int | 本例中此值为1 |
+|reply | 是 | str | 回复的内容 |
+
+
+- 响应数据
+
+```
+{
+code: 1000,
+message: "添加成功",
+data: [ ]
+}
+```
+
