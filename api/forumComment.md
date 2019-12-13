@@ -21,7 +21,13 @@
 {
 code: 1000,
 message: "OK",
-data: [
+data: {
+info: {
+comment_count: 3,
+comment_reply_count: 7,
+comment_total: 10
+},
+comments: [
 {
 comment: {
 id: 3,
@@ -31,7 +37,8 @@ content: "test3",
 created_at: "2019-12-13 13:35:41",
 updated_at: "2019-12-13 13:35:41",
 user_name: "Dr. Hilma Trantow MD",
-user_avatar: "/assets/img/dp.jpg"
+user_avatar: "/assets/img/dp.jpg",
+reply_count: 0
 },
 reply: [ ]
 },
@@ -44,7 +51,8 @@ content: "test2",
 created_at: "2019-12-13 13:35:33",
 updated_at: "2019-12-13 13:35:33",
 user_name: "Dr. Hilma Trantow MD",
-user_avatar: "/assets/img/dp.jpg"
+user_avatar: "/assets/img/dp.jpg",
+reply_count: 6
 },
 reply: [
 {
@@ -142,7 +150,8 @@ content: "test",
 created_at: "2019-12-13 13:24:11",
 updated_at: "2019-12-13 13:24:11",
 user_name: "Dr. Hilma Trantow MD",
-user_avatar: "/assets/img/dp.jpg"
+user_avatar: "/assets/img/dp.jpg",
+reply_count: 1
 },
 reply: [
 {
@@ -162,6 +171,7 @@ from_user_avatar: "/assets/img/dp.jpg"
 ]
 }
 ]
+}
 }
 ```
 
