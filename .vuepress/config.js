@@ -49,6 +49,7 @@ module.exports = {
                             '/api/sms/',
                             '/api/Conference/',
                             '/api/Project/',
+                            '/api/forum/',
                         ]
                     },
                     {
