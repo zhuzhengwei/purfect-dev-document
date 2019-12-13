@@ -25,7 +25,8 @@
 		info: {
 			comment_count: 3,
 			comment_reply_count: 7,
-			comment_total: 10
+			comment_total: 10，
+			like_count: 4
 		},
 		comments: [{
 				comment: {
