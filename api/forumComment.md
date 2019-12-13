@@ -23,10 +23,10 @@
 	message: "OK",
 	data: {
 		info: {
-			comment_count: 3,
-			comment_reply_count: 7,
-			comment_total: 10，
-			like_count: 4
+			comment_count: 3,  //一级评论数
+			comment_reply_count: 7,  //对一级评论的回复总数
+			comment_total: 10，//一级评论和所有回复数的总和
+			like_count: 4  //点赞总数
 		},
 		comments: [{
 				comment: {
