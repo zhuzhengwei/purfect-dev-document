@@ -19,159 +19,155 @@
 
 ```
 {
-code: 1000,
-message: "OK",
-data: {
-info: {
-comment_count: 3,
-comment_reply_count: 7,
-comment_total: 10
-},
-comments: [
-{
-comment: {
-id: 3,
-user_id: 6,
-forum_id: 1,
-content: "test3",
-created_at: "2019-12-13 13:35:41",
-updated_at: "2019-12-13 13:35:41",
-user_name: "Dr. Hilma Trantow MD",
-user_avatar: "/assets/img/dp.jpg",
-reply_count: 0
-},
-reply: [ ]
-},
-{
-comment: {
-id: 2,
-user_id: 6,
-forum_id: 1,
-content: "test2",
-created_at: "2019-12-13 13:35:33",
-updated_at: "2019-12-13 13:35:33",
-user_name: "Dr. Hilma Trantow MD",
-user_avatar: "/assets/img/dp.jpg",
-reply_count: 6
-},
-reply: [
-{
-id: 2,
-comment_id: 2,
-user_id: 6,
-to_user_id: 6,
-forum_id: 1,
-reply: "testrply",
-created_at: "2019-12-13 13:37:08",
-updated_at: "2019-12-13 13:37:08",
-to_user_name: "Dr. Hilma Trantow MD",
-to_user_avatar: "/assets/img/dp.jpg",
-from_user_name: "Dr. Hilma Trantow MD",
-from_user_avatar: "/assets/img/dp.jpg"
-},
-{
-id: 3,
-comment_id: 2,
-user_id: 6,
-to_user_id: 6,
-forum_id: 1,
-reply: "testrply",
-created_at: "2019-12-13 13:37:08",
-updated_at: "2019-12-13 13:37:08",
-to_user_name: "Dr. Hilma Trantow MD",
-to_user_avatar: "/assets/img/dp.jpg",
-from_user_name: "Dr. Hilma Trantow MD",
-from_user_avatar: "/assets/img/dp.jpg"
-},
-{
-id: 4,
-comment_id: 2,
-user_id: 6,
-to_user_id: 6,
-forum_id: 1,
-reply: "testrply3",
-created_at: "2019-12-13 13:37:14",
-updated_at: "2019-12-13 13:37:14",
-to_user_name: "Dr. Hilma Trantow MD",
-to_user_avatar: "/assets/img/dp.jpg",
-from_user_name: "Dr. Hilma Trantow MD",
-from_user_avatar: "/assets/img/dp.jpg"
-},
-{
-id: 5,
-comment_id: 2,
-user_id: 6,
-to_user_id: 6,
-forum_id: 1,
-reply: "testrply3",
-created_at: "2019-12-13 13:37:15",
-updated_at: "2019-12-13 13:37:15",
-to_user_name: "Dr. Hilma Trantow MD",
-to_user_avatar: "/assets/img/dp.jpg",
-from_user_name: "Dr. Hilma Trantow MD",
-from_user_avatar: "/assets/img/dp.jpg"
-},
-{
-id: 6,
-comment_id: 2,
-user_id: 6,
-to_user_id: 6,
-forum_id: 1,
-reply: "testrply4",
-created_at: "2019-12-13 13:37:19",
-updated_at: "2019-12-13 13:37:19",
-to_user_name: "Dr. Hilma Trantow MD",
-to_user_avatar: "/assets/img/dp.jpg",
-from_user_name: "Dr. Hilma Trantow MD",
-from_user_avatar: "/assets/img/dp.jpg"
-},
-{
-id: 7,
-comment_id: 2,
-user_id: 6,
-to_user_id: 6,
-forum_id: 1,
-reply: "testrply4",
-created_at: "2019-12-13 13:37:19",
-updated_at: "2019-12-13 13:37:19",
-to_user_name: "Dr. Hilma Trantow MD",
-to_user_avatar: "/assets/img/dp.jpg",
-from_user_name: "Dr. Hilma Trantow MD",
-from_user_avatar: "/assets/img/dp.jpg"
-}
-]
-},
-{
-comment: {
-id: 1,
-user_id: 6,
-forum_id: 1,
-content: "test",
-created_at: "2019-12-13 13:24:11",
-updated_at: "2019-12-13 13:24:11",
-user_name: "Dr. Hilma Trantow MD",
-user_avatar: "/assets/img/dp.jpg",
-reply_count: 1
-},
-reply: [
-{
-id: 1,
-comment_id: 1,
-user_id: 6,
-to_user_id: 6,
-forum_id: 1,
-reply: "testrply",
-created_at: "2019-12-13 13:29:53",
-updated_at: "2019-12-13 13:29:53",
-to_user_name: "Dr. Hilma Trantow MD",
-to_user_avatar: "/assets/img/dp.jpg",
-from_user_name: "Dr. Hilma Trantow MD",
-from_user_avatar: "/assets/img/dp.jpg"
-}
-]
-}
-]
-}
+	code: 1000,
+	message: "OK",
+	data: {
+		info: {
+			comment_count: 3,
+			comment_reply_count: 7,
+			comment_total: 10
+		},
+		comments: [{
+				comment: {
+					id: 3,
+					user_id: 6,
+					forum_id: 1,
+					content: "test3",
+					created_at: "2019-12-13 13:35:41",
+					updated_at: "2019-12-13 13:35:41",
+					user_name: "Dr. Hilma Trantow MD",
+					user_avatar: "/assets/img/dp.jpg",
+					reply_count: 0
+				},
+				reply: []
+			},
+			{
+				comment: {
+					id: 2,
+					user_id: 6,
+					forum_id: 1,
+					content: "test2",
+					created_at: "2019-12-13 13:35:33",
+					updated_at: "2019-12-13 13:35:33",
+					user_name: "Dr. Hilma Trantow MD",
+					user_avatar: "/assets/img/dp.jpg",
+					reply_count: 6
+				},
+				reply: [{
+						id: 2,
+						comment_id: 2,
+						user_id: 6,
+						to_user_id: 6,
+						forum_id: 1,
+						reply: "testrply",
+						created_at: "2019-12-13 13:37:08",
+						updated_at: "2019-12-13 13:37:08",
+						to_user_name: "Dr. Hilma Trantow MD",
+						to_user_avatar: "/assets/img/dp.jpg",
+						from_user_name: "Dr. Hilma Trantow MD",
+						from_user_avatar: "/assets/img/dp.jpg"
+					},
+					{
+						id: 3,
+						comment_id: 2,
+						user_id: 6,
+						to_user_id: 6,
+						forum_id: 1,
+						reply: "testrply",
+						created_at: "2019-12-13 13:37:08",
+						updated_at: "2019-12-13 13:37:08",
+						to_user_name: "Dr. Hilma Trantow MD",
+						to_user_avatar: "/assets/img/dp.jpg",
+						from_user_name: "Dr. Hilma Trantow MD",
+						from_user_avatar: "/assets/img/dp.jpg"
+					},
+					{
+						id: 4,
+						comment_id: 2,
+						user_id: 6,
+						to_user_id: 6,
+						forum_id: 1,
+						reply: "testrply3",
+						created_at: "2019-12-13 13:37:14",
+						updated_at: "2019-12-13 13:37:14",
+						to_user_name: "Dr. Hilma Trantow MD",
+						to_user_avatar: "/assets/img/dp.jpg",
+						from_user_name: "Dr. Hilma Trantow MD",
+						from_user_avatar: "/assets/img/dp.jpg"
+					},
+					{
+						id: 5,
+						comment_id: 2,
+						user_id: 6,
+						to_user_id: 6,
+						forum_id: 1,
+						reply: "testrply3",
+						created_at: "2019-12-13 13:37:15",
+						updated_at: "2019-12-13 13:37:15",
+						to_user_name: "Dr. Hilma Trantow MD",
+						to_user_avatar: "/assets/img/dp.jpg",
+						from_user_name: "Dr. Hilma Trantow MD",
+						from_user_avatar: "/assets/img/dp.jpg"
+					},
+					{
+						id: 6,
+						comment_id: 2,
+						user_id: 6,
+						to_user_id: 6,
+						forum_id: 1,
+						reply: "testrply4",
+						created_at: "2019-12-13 13:37:19",
+						updated_at: "2019-12-13 13:37:19",
+						to_user_name: "Dr. Hilma Trantow MD",
+						to_user_avatar: "/assets/img/dp.jpg",
+						from_user_name: "Dr. Hilma Trantow MD",
+						from_user_avatar: "/assets/img/dp.jpg"
+					},
+					{
+						id: 7,
+						comment_id: 2,
+						user_id: 6,
+						to_user_id: 6,
+						forum_id: 1,
+						reply: "testrply4",
+						created_at: "2019-12-13 13:37:19",
+						updated_at: "2019-12-13 13:37:19",
+						to_user_name: "Dr. Hilma Trantow MD",
+						to_user_avatar: "/assets/img/dp.jpg",
+						from_user_name: "Dr. Hilma Trantow MD",
+						from_user_avatar: "/assets/img/dp.jpg"
+					}
+				]
+			},
+			{
+				comment: {
+					id: 1,
+					user_id: 6,
+					forum_id: 1,
+					content: "test",
+					created_at: "2019-12-13 13:24:11",
+					updated_at: "2019-12-13 13:24:11",
+					user_name: "Dr. Hilma Trantow MD",
+					user_avatar: "/assets/img/dp.jpg",
+					reply_count: 1
+				},
+				reply: [{
+					id: 1,
+					comment_id: 1,
+					user_id: 6,
+					to_user_id: 6,
+					forum_id: 1,
+					reply: "testrply",
+					created_at: "2019-12-13 13:29:53",
+					updated_at: "2019-12-13 13:29:53",
+					to_user_name: "Dr. Hilma Trantow MD",
+					to_user_avatar: "/assets/img/dp.jpg",
+					from_user_name: "Dr. Hilma Trantow MD",
+					from_user_avatar: "/assets/img/dp.jpg"
+				}]
+			}
+		]
+	}
 }
 ```
 
