@@ -1,7 +1,7 @@
   
 ### 社区评论接口使用说明
 
-1. 某文章的评论列表
+**1. 某文章的评论列表**
 
 - url   /api/forum/comments/1?api_token=99382f5f-977b-4e16-a82c-94783d29d749
 - 请求数据
@@ -166,7 +166,7 @@ from_user_avatar: "/assets/img/dp.jpg"
 ```
 
 
-2. 添加某文章的评论
+**2. 添加某文章的评论**
 
 - url   /api/forum/comments/addcomment/1?api_token=99382f5f-977b-4e16-a82c-94783d29d749&content=评论内容
 - 请求数据
@@ -189,7 +189,7 @@ data: [ ]
 ```
 
 
-3. 添加某评论的回复
+**3. 添加某评论的回复**
 
 - url   /api/forum/comments/addreply/1?api_token=99382f5f-977b-4e16-a82c-94783d29d749&reply=回复内容
 - 请求数据
@@ -211,7 +211,7 @@ data: [ ]
 }
 ```
 
-4. 给某社区文章点赞
+**4. 给某社区文章点赞**
 
 - url   /api/forum/comments/addlike/1?api_token=99382f5f-977b-4e16-a82c-94783d29d749
 - 请求数据
@@ -229,6 +229,28 @@ data: [ ]
 {
 code: 1000,
 message: "添加成功",
+data: [ ]
+}
+```
+
+**5. 删除某社区文章点赞**
+
+- url   /api/forum/comments/dellike/1?api_token=99382f5f-977b-4e16-a82c-94783d29d749
+- 请求数据
+
+|参数名 | 是否必须 | 参数类型 | 说明|
+| --------      | :----------: | -----:   | -----:                             |
+|api_token | 是 | str | token |
+|forumid | 是 | int | 本例中此值为1 |
+
+
+
+- 响应数据
+
+```
+{
+code: 1000,
+message: "删除成功",
 data: [ ]
 }
 ```
