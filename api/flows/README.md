@@ -4,7 +4,7 @@
 
 根据当前登陆用户, 获取办事大厅所显示的有效工作流程
 
-- url:api/flows/my
+- url: /api/pipeline/flows/my
 
 - 请求数据
 
@@ -65,3 +65,8 @@
     }
 }
 ```
+
+## 测试 url
+
+- 查看用户自己的待审核流程: https://admin.dev.pftytx.com/h5/flow/user/in-progress?api_token=d1f4f5d1-fef7-438f-a3dc-14eb1727b649
+- 
