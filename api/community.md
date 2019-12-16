@@ -258,6 +258,57 @@ message: "添加成功",
 data: [ ]
 }
 ```
+**6. 团长拒绝加入某个社群**
+
+- url   api/forum/community/reject?community_id=1&api_token=99382f5f-977b-4e16-a82c-94783d29d749&member_id=6
+- 请求数据
+
+|参数名 | 是否必须 | 参数类型 | 说明|
+| --------      | :----------: | -----:   | -----:                             |
+|api_token | 是 | str | token |
+|community_id | 是 | int | 本例中此值为1 |
+|member_id | 是 | int | 本例中此值为6|
+
+
+
+- 响应数据
+
+```
+{
+code: 1000,
+message: "操作成功",
+data: [ ]
+}
+```
+
+**6. 团长批准某人加入某个社群**
+
+- url   api/forum/community/accept?community_id=1&api_token=99382f5f-977b-4e16-a82c-94783d29d749&member_id=6
+- 请求数据
+
+|参数名 | 是否必须 | 参数类型 | 说明|
+| --------      | :----------: | -----:   | -----:                             |
+|api_token | 是 | str | token |
+|community_id | 是 | int | 本例中此值为1 |
+|member_id | 是 | int | 本例中此值为6|
+
+
+
+- 响应数据
+
+```
+{
+code: 1000,
+message: "操作成功",
+data: [ ]
+}
+```
+
+
+
+
+
+
 
 
 
