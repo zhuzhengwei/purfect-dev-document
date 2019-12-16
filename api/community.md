@@ -89,6 +89,7 @@
 			pic2: "",
 			pic3: "",
 			user_id: 6,
+			forum_type_id: 1,
 			user_name: "Elmer Schultz",
 			user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
 		},
@@ -106,6 +107,21 @@
 				user_id: 8,
 				user_name: "Cyrus Will",
 				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
+			},
+			{
+				user_id: 9,
+				user_name: "Micheal Bode",
+				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
+			},
+			{
+				user_id: 13,
+				user_name: "Ms. Beulah Swaniawski",
+				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
+			},
+			{
+				user_id: 14,
+				user_name: "Prof. Monica Roberts I",
+				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
 			}
 		],
 		socialFollowed: [{
@@ -113,17 +129,17 @@
 			user_name: "Elmer Schultz",
 			user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
 		}],
-		like: 0,
+		like: 1,
 		members: [{
 				id: 1,
 				school_id: 1,
 				community_id: 1,
 				user_id: 6,
 				user_name: "Elmer Schultz",
-				status: 1,
+				status: 2,
 				reason: "少啰嗦",
 				created_at: "2019-12-16 15:47:01",
-				updated_at: "2019-12-16 15:52:45",
+				updated_at: "2019-12-16 16:16:31",
 				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
 			},
 			{
@@ -132,10 +148,10 @@
 				community_id: 1,
 				user_id: 6,
 				user_name: "Elmer Schultz",
-				status: 1,
+				status: 2,
 				reason: "少啰嗦",
 				created_at: "2019-12-16 15:47:02",
-				updated_at: "2019-12-16 15:52:45",
+				updated_at: "2019-12-16 16:16:31",
 				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
 			},
 			{
@@ -144,10 +160,10 @@
 				community_id: 1,
 				user_id: 6,
 				user_name: "Elmer Schultz",
-				status: 1,
+				status: 2,
 				reason: "少啰嗦",
 				created_at: "2019-12-16 15:47:24",
-				updated_at: "2019-12-16 15:52:45",
+				updated_at: "2019-12-16 16:16:31",
 				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
 			},
 			{
@@ -156,10 +172,10 @@
 				community_id: 1,
 				user_id: 6,
 				user_name: "Elmer Schultz",
-				status: 1,
+				status: 2,
 				reason: "少啰嗦",
 				created_at: "2019-12-16 15:47:57",
-				updated_at: "2019-12-16 15:52:45",
+				updated_at: "2019-12-16 16:16:31",
 				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
 			},
 			{
@@ -168,10 +184,10 @@
 				community_id: 1,
 				user_id: 6,
 				user_name: "Elmer Schultz",
-				status: 1,
+				status: 2,
 				reason: "少啰嗦",
 				created_at: "2019-12-16 15:48:05",
-				updated_at: "2019-12-16 15:52:45",
+				updated_at: "2019-12-16 16:16:31",
 				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
 			},
 			{
@@ -180,13 +196,72 @@
 				community_id: 1,
 				user_id: 6,
 				user_name: "Elmer Schultz",
-				status: 1,
+				status: 2,
 				reason: "少啰嗦",
 				created_at: "2019-12-16 15:48:05",
-				updated_at: "2019-12-16 15:52:45",
+				updated_at: "2019-12-16 16:16:31",
+				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
+			},
+			{
+				id: 7,
+				school_id: 1,
+				community_id: 1,
+				user_id: 6,
+				user_name: "Elmer Schultz",
+				status: 2,
+				reason: "赶紧同意",
+				created_at: "2019-12-16 16:10:30",
+				updated_at: "2019-12-16 16:16:31",
+				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
+			},
+			{
+				id: 8,
+				school_id: 1,
+				community_id: 1,
+				user_id: 6,
+				user_name: "Elmer Schultz",
+				status: 2,
+				reason: "赶紧同意",
+				created_at: "2019-12-16 16:10:31",
+				updated_at: "2019-12-16 16:16:31",
 				user_avatar: "http://teacher.backend.com/assets/img/dp.jpg"
 			}
-		]
+		],
+		announcement: {
+			current_page: 1,
+			data: [{
+				id: 1,
+				content: "hhhhhh",
+				see_num: 0,
+				type_id: 1,
+				created_at: "",
+				user_id: 6
+			}],
+			first_page_url: "http://teacher.backend.com/api/forum/community/community/1?page=1",
+			from: 1,
+			last_page: 1,
+			last_page_url: "http://teacher.backend.com/api/forum/community/community/1?page=1",
+			next_page_url: "",
+			path: "http://teacher.backend.com/api/forum/community/community/1",
+			per_page: 20,
+			prev_page_url: "",
+			to: 1,
+			total: 1
+		},
+		news: {
+			current_page: 1,
+			data: [],
+			first_page_url: "http://teacher.backend.com/api/forum/community/community/1?page=1",
+			from: "",
+			last_page: 1,
+			last_page_url: "http://teacher.backend.com/api/forum/community/community/1?page=1",
+			next_page_url: "",
+			path: "http://teacher.backend.com/api/forum/community/community/1",
+			per_page: 20,
+			prev_page_url: "",
+			to: "",
+			total: 0
+		}
 	}
 }
 ```
