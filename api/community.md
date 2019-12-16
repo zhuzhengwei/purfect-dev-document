@@ -258,7 +258,7 @@ message: "添加成功",
 data: [ ]
 }
 ```
-**6. 团长拒绝加入某个社群**
+**6. 团长拒绝某人加入某个社群**
 
 - url   api/forum/community/reject?community_id=1&api_token=99382f5f-977b-4e16-a82c-94783d29d749&member_id=6
 - 请求数据
