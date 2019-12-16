@@ -41,17 +41,21 @@
                     "optional": false,
                     "weekday_index": 1,
                     "time_slot_id": 16,
-                    "time_slot": {
-                        "id": 16,
-                        "school_id": 1,
-                        "type": 1,
-                        "from": "08:00:00",
-                        "to": "08:45:00",
-                        "name": "第一节课",
-                        "created_at": "2019-11-18 11:31:52",
-                        "updated_at": "2019-11-18 11:31:52",
-                        "deleted_at": null
-                    },
+                    "specials": ""
+                },
+                {
+                    "course": "挖掘机高级1",
+                    "teacher": "张老师",
+                    "teacher_id": 469,
+                    "building": "教学一楼",
+                    "room": "1-101",
+                    "room_id": 1,
+                    "id": 2,
+                    "published": true,
+                    "repeat_unit": 1,
+                    "optional": false,
+                    "weekday_index": 1,
+                    "time_slot_id": 17,
                     "specials": ""
                 }
             ]
@@ -59,6 +63,7 @@
         "timeSlots":[
             {
                 "id": 15,
+                "current": 1, // 当前正在上课
                 "school_id": 1,
                 "type": 3,
                 "from": "07:30:00",
@@ -70,6 +75,7 @@
             },
             {
                 "id": 16,
+                "current": 0,   // 不是当前正在上的课
                 "school_id": 1,
                 "type": 1,
                 "from": "08:00:00",
