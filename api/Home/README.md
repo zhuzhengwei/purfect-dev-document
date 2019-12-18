@@ -1,7 +1,7 @@
 # 首页接口
 
 ## 1.首页接口   
--  url: api//home/getHomePageInfo
+-  url: /api/home/getHomePageInfo
 
 -  请求数据
 
@@ -42,4 +42,38 @@
     }
 }
 
+```
+
+
+## 2.校园动态
+
+- RUL: /api/home/newsPage
+
+- 请求方式:get
+
+| 参数名   | 是否必须     | 参数类型 | 说明         |
+| -------- | :----------: | -----:   | -----:   |
+| page    | NO         | int      | 页码 |
+
+- 响应数据
+
+```json
+{
+    "code": 1000,
+    "message": "OK",
+    "data": {
+        "currentPage": 1,
+        "lastPage": 1,
+        "total": 1,
+        "list": [
+            {
+                "id": 2,
+                "type": 1,
+                "title": "测试1",
+                "tags": "",
+                "created_at": "2019-11-28 15:47:53"
+            }
+        ]
+    }
+}
 ```
