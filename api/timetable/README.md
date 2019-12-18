@@ -96,3 +96,13 @@
     }
 }
 ```
+# 学生课程表 h5 页面的入口
+
+/h5/timetable/student/view?api_token=6385fe01-f69c-4876-89ed-34f4978ff3a8&type=daily&day=2019-12-18&student=1
+
+网址 URL 的参数说明:
+
+- 必须提供的参数: api_token 值为学生的 token
+- 必须提供的参数: student 值为 1
+- 选填字段: type 表示是加载当天的课表还是一周的, 值为 daily 表示加载某天的; 值为 week 表示获取一周的. 默认值为 daily, 取当天的
+- 选填字段: day 表示准备加载哪一天的课表, 不填写时表示加载今天的
