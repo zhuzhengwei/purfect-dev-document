@@ -50,6 +50,10 @@ module.exports = {
                             '/api/Conference/',
                             '/api/Project/',
                             '/api/forum/',
+                            '/api/attendance.md',
+                            '/api/community.md',
+                            '/api/forumComment.md',
+                            '/api/notification.md',
                             '/api/signIn/'
                         ]
                     },
