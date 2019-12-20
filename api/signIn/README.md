@@ -77,3 +77,28 @@
     ]
 }
 ```
+
+## 3.添加旷课接口
+
+- url: /api/attendance/sign-in-details
+
+- 请求方式:post
+
+- 请求数据
+
+| 参数名       | 是否必须     | 参数类型  | 说明 |
+| -------- |:----------:| -----:   | ----- |
+| student_id| Yes      | int      | 学生ID|
+| date| Yes      | date      | 旷课当天日期|
+| timetable_id| Yes      | int      | itemId|
+| reason| Not      | string      | 描述|
+
+- 响应数据
+
+```json
+{
+    "code": 1000,
+    "message": "旷课已添加",
+    "data": []
+}
+```
