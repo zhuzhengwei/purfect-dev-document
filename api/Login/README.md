@@ -99,7 +99,7 @@
 
 | 参数名       | 是否必须     | 参数类型 | 说明      |
 | --------     | :----------: | -----:   | -----: |
-| token        | Yes          | int      | 手机号 |
+| token        | Yes          | int      |  |
 
 
 
@@ -190,6 +190,48 @@
     "code": 1000,
     "message": "签到成功",
     "data": []
+}
+```
+
+
+## 1.老师信息   
+-  url: api/user/getUserInfo
+
+-  请求数据
+
+| 参数名       | 是否必须     | 参数类型 | 说明      |
+| --------     | :----------: | -----:   | -----: |
+| token        | Yes          | int      |  |
+
+
+
+- 响应数据
+``` json
+{
+    "code": 1000,
+    "message": "OK",
+    "data": {
+        "name": "童  萍",
+        "avatar": "/assets/img/dp.jpg",
+        "gender": 2,
+        "birthday": "1985-07-18",
+        "state": "",
+        "city": "",
+        "area": "",
+        "school_name": "礼县职业中等专业学校",
+        "organization": "",  // 用户所在机构的职务
+        "gradeManger": "",   // 用户的班级
+        "yearManger": "",    // 用户年级组长
+        "myGroup": [         // 用户的小组
+            {
+                "name": "语文组",
+                "isLeader": false  // 是否为组长
+            }
+        ],
+        "institute": "",
+        "department": "",
+        "major": ""
+    }
 }
 ```
 
