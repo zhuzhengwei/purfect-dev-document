@@ -195,7 +195,7 @@
 
 
 ## 1.老师信息   
--  url: api/user/getUserInfo
+-  url: api/user/getTeacherInfo
 
 -  请求数据
 
