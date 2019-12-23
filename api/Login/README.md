@@ -137,6 +137,7 @@
 | data[city]   | No           | string   | 市     |
 | data[area]   | No           | string   | 区     |
 | data[gender] | No           | string   | 性别   1:男 2:女|
+| avatar       | No           | file     | 头像   |
 
 
 
