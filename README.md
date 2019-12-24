@@ -5,4 +5,4 @@
 | 参数名        | 是否必须       | 参数类型 | 说明                              |
 | --------      | :----------: | -----:   | -----:                           |
 | Authorization | Yes          | string   | Bearer空格 拼接上服务端返回的token  |
-| schoolUuid 	  | Yes        | string   | 服务端返回的学校uuid               |
+| schoolUuid 	  | Yes        | string   | 服务端返回的学校uuid         |
