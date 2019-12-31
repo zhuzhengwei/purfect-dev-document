@@ -10,10 +10,10 @@
 | mobile        |  NO          | int      | 手机号    |
 | password      |  NO          | string      | 密码     |
 | id_number     |  NO          | string      | 身份证号     |
+| type          |  NO          | int         | 登录类型 1手机号登录 2身份证号登录     |
 | app_type      | Yes          | int         | APP版本 6:学生端 9:教师端    |
 | platform      | NO           | string      | 手机平台 |
 | model         | NO           | string      | 手机型号 |
-| type          | NO           | string      | 设备类型 |
 | device_number | NO           | string      | 设备号   |
 | push_id       | NO           | string      | 推送ID   |
 | version       | NO           | string      | APP版本  |
