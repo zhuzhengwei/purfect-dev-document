@@ -7,8 +7,9 @@
 
 | 参数名        | 是否必须     | 参数类型 | 说明        |
 | --------      | :----------: | -----:   | -----:   |
-| mobile        | Yes          | int      | 手机号    |
-| password      | Yes          | string      | 密码     |
+| mobile        |  NO          | int      | 手机号    |
+| password      |  NO          | string      | 密码     |
+| id_number     |  NO          | string      | 身份证号     |
 | app_type      | Yes          | int         | APP版本 6:学生端 9:教师端    |
 | platform      | NO           | string      | 手机平台 |
 | model         | NO           | string      | 手机型号 |
@@ -24,7 +25,8 @@
     "code": 1000,
     "message": "OK",
     "data": {
-        "token": "xxxxxx"
+        "token": "f8608ace-710f-440e-9dc5-bea1ad78fb8c",
+        "status": true  // true 身份已验证, false 未验证
     }
 }
 ```
