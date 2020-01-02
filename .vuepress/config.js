@@ -54,7 +54,8 @@ module.exports = {
                             '/api/community.md',
                             '/api/forumComment.md',
                             '/api/notification.md',
-                            '/api/signIn/'
+                            '/api/signIn/',
+                            '/api/Evaluation/',
                         ]
                     },
                     {
