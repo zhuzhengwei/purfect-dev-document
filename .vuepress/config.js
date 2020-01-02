@@ -56,6 +56,7 @@ module.exports = {
                             '/api/notification.md',
                             '/api/signIn/',
                             '/api/Evaluation/',
+                            '/api/evaluate/',
                         ]
                     },
                     {
