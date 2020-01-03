@@ -1,6 +1,30 @@
 # 评教模块
 
-## 1.评价教师列表
+## 1.判断是否开启评教模块
+
+- url:/api/evaluate/record/isEvaluate
+
+- 请求方式:get
+
+- 响应数据
+
+``` json
+{
+    "code": 1000,
+    "message": "OK",
+    "data": {
+        "status": true,  // true 开启 false 关闭
+        "list": [
+            {
+                "year": 2019,  // 学年
+                "type": 1      // 学期
+            }
+        ]
+    }
+}
+```
+
+## 2.评价教师列表
 
 - url:/api/evaluate/record/teacher-list
 
@@ -30,7 +54,7 @@
 ```
 
 
-## 2.模版数据
+## 3.模版数据
 
 - url:/api/evaluate/record/template
 
@@ -60,7 +84,7 @@
 }
 ```
 
-## 3.学生评价老师
+## 4.学生评价老师
 - url: /api/evaluate/record/crete
 
 - 请求方式:post
