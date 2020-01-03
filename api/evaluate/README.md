@@ -13,13 +13,11 @@
     "code": 1000,
     "message": "OK",
     "data": {
-        "status": true,  // true 开启 false 关闭
-        "list": [
-            {
-                "year": 2019,  // 学年
-                "type": 1      // 学期
-            }
-        ]
+        "status": true,
+        "evaluate": {
+            "year": 2019,
+            "type": 1
+        }
     }
 }
 ```
