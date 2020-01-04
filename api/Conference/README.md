@@ -97,7 +97,31 @@
 ```
 
 
-## 3. 自己创建的会议
+## 3.签到
+
+- URL: /api/conferences/sign-in
+
+- 请求方式:get
+
+- 请求数据
+
+| 参数名  | 是否必须     | 参数类型  | 说明       |
+| -------|:----------:| -----:   | -----:    |
+| id   | Yes        | int      | 会议ID|
+| type   | Yes        | int      | 签到类型 1:签到 2:签退|
+
+- 返回数据
+
+``` json
+{
+    "code": 1000,
+    "message": "签到成功"
+}
+
+```
+
+
+## 4. 自己创建的会议
 
 - URL: /api/conferences/oneselfCreate
 
@@ -141,7 +165,7 @@
 }
 ```
 
-##  4.会议详情
+##  5.会议详情
 
 
 - URL: /api/conferences/conference-info
