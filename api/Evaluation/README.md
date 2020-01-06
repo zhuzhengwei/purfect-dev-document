@@ -56,8 +56,9 @@
 -  请求数据
 
 | 参数名   | 是否必须     | 参数类型 | 说明   |
-| -------- | :----------: | -----:   | -----: |
-| grade_id | Yes          | int      | 班级ID |
+| --------          | :----------: | -----: | -----: |
+| grade_id          | Yes          | int    | 班级ID |
+| evaluate_title_id | Yes          | int    | 评学ID |
 
 - 响应数据
 ``` json
@@ -148,7 +149,7 @@
 | --------                 | :----------: | -----:   | -----:     |
 | user_id                  | Yes          | int      | 学生ID     |
 | desc                     | Yes          | int      | 描述       |
-| evaluate_title_id        | Yes          | int      | 分数       |
+| evaluate_title_id        | Yes          | int      | 评学ID       |
 | record[key][evaluate_id] | Yes          | string   | 评价模板ID |
 | record[key][score]       | Yes          | string   | 分数       |
 
