@@ -238,3 +238,28 @@
 }
 ```
 
+
+## 1.扫码获取个人信息   
+-  url: api/QrCode/information
+
+-  请求数据
+
+| 参数名   | 是否必须     | 参数类型 | 说明   |
+| -------- | :----------: | -----:   | -----: |
+| token    | Yes          | int      |        |
+| code     | Yes          | string   |        |
+
+
+- 响应数据
+``` json
+{
+    "code": 1000,
+    "message": "OK",
+    "data": {
+        "name": "安娜",
+        "avatar": "http://teacher.test/assets/img/dp.jpg",
+        "grade_name": "19护理1班",
+        "school_name": "礼县职业中等专业学校"
+    }
+}
+```
