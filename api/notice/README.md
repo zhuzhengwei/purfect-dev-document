@@ -29,6 +29,7 @@
                 "type": 3,
                 "created_at": "2019-12-03 15:22:29",
                 "inspect_id": 1,
+                "is_read": 1,  // 阅读状态 0未读 1已读
                 "attachments": [
                     {
                         "url": "http://abc.com/storage/users/1/IVqXqxyJv.jpeg"
