@@ -39,9 +39,7 @@
                     }
                 ],
                 "image": "http://abc.com/storage/users/1/I1qklz.jpeg",
-                "inspect": {           // 当type为3时才有此值
-                    "name": "卫生"
-                }
+                "inspect": "卫生"  
             }
         ]
     }
