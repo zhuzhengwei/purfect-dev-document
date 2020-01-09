@@ -299,3 +299,47 @@
     "data": []
 }
 ```
+
+## 1.意见反馈列表
+
+- url: api/user/proposal-list
+
+-   请求参数
+
+| 参数名   | 是否必须     | 参数类型 | 说明     |
+| -------- | :----------: | -----:   | -----    |
+| token     | Yes          | int      |      |
+| page     | Yes          | int   | 分页 |
+
+
+- 响应数据
+
+``` json
+{
+    "code": 1000,
+    "message": "OK",
+    "data": {
+        "currentPage": 1,
+        "lastPage": 1,
+        "total": 6,
+        "list": [
+            {
+                "id": 10,
+                "user_id": 170581,
+                "type": 1,
+                "content": "反馈内容",
+                "created_at": "2020-01-09 09:10:04",
+                "updated_at": "2020-01-09 09:10:04"
+            },
+            {
+                "id": 11,
+                "user_id": 170581,
+                "type": 1,
+                "content": "反馈内容",
+                "created_at": "2020-01-09 09:11:07",
+                "updated_at": "2020-01-09 09:11:07"
+            }
+        ]
+    }
+}
+```
